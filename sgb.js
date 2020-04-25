@@ -34,7 +34,9 @@ const client = new Client({
 client.initialize();
 
 client.on("qr", (qr) => {
-  let scan = qrcode(qr);
+  let scan = qrcode.generate(qr, {
+    small: true,
+  });
   console.log("SCAN!", scan);
 });
 
