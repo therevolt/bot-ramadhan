@@ -2,6 +2,7 @@
 .
 .
 # CARA INSTALL
+
 git clone https://github.com/therevolt/bot-ramadhan
 cd bot-ramadhan
 npm i
