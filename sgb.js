@@ -37,7 +37,7 @@ client.on("qr", (qr) => {
   let scan = qrcode.generate(qr, {
     small: true,
   });
-  console.log("SCAN!", scan);
+  console.log("SCAN DI WA LO SOB!");
 });
 
 client.on("authenticated", (session) => {
