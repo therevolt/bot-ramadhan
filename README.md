@@ -13,4 +13,5 @@ node sgb.js
 
 .
 .
+# BACA DO'A DULU
 # RUN DI RDP YA BIAR ON 24 JAM!
